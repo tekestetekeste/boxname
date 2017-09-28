@@ -1,0 +1,115 @@
+/* Check out different colors here: https://www.materialpalette.com/ */
+.box{
+	align-items:center;
+	justify-content:center;
+}
+
+.pink {
+	background-color:#f06292;
+	height:40vh;
+	width:33%;
+    display:inline-block;
+    align-items:center;
+    justify-content:center;
+	color:#f44336;
+}
+
+.yellow {
+	background-color:#ffeb3b;
+	height:40vh;
+	width:33%;
+    display:inline-block;
+	align-items:center;
+    justify-content:center;
+	color:#00bcd4;
+}
+
+.red {
+	background-color:#f44336;
+	height:40vh;
+	width:33%;
+    display:inline-block;
+	align-items:center;
+    justify-content:center;
+	color:#66bb6a;
+}
+
+.green {
+	background-color:#66bb6a;
+	height:40vh;
+	width:33%;
+    display:inline-block;
+	align-items:center;
+    justify-content:center;
+	color:#ffeb3b;
+}
+
+.blue {
+	background-color:#00bcd4;
+	height:40vh;
+	width:33%;
+    display:inline-block;
+	align-items:center;
+    justify-content: center;
+	color: #f06292;
+}
+
+h1{
+	text-align:center;
+}
+@media screen and (max-width:500px){
+	.yellow{
+			background-color:#f44336;
+			height:40vh;
+			width:100%;
+			display:inline-block;
+			align-items:center;
+			justify-content:center;
+			color:#66bb6a;
+		
+	}
+}
+@media screen and (max-width:500px){
+	.red{
+			background-color:#f44336;
+			height:40vh;
+			width:100%;
+			display:inline-block;
+			align-items:center;
+			justify-content:center;
+			color:#66bb6a;
+}
+}
+@media screen and (max-width: 500px){
+	.blue{
+			background-color:#00bcd4;
+			height:40vh;
+			width:100%;
+			display: inline-block;
+			align-items: center;
+			justify-content:center;
+			color:#f06292;
+}
+}
+@media screen and (max-width: 500px){
+	.pink{
+			background-color:#f06292;
+			height:40vh;
+			width:100%;
+			display: inline-block;
+			align-items:center;
+			justify-content:center;
+			color:#f44336;
+}
+}
+@media screen and (max-width: 500px){
+	.green{
+			background-color: #66bb6a;
+			height:40vh;
+			width:100% ;
+			display:inline-block;
+			align-items: center;
+			justify-content:center;
+			color:#ffeb3b;
+}
+}
